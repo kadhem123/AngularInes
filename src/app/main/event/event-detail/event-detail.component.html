@@ -1,0 +1,33 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      
+  
+      <mat-card-title>Evenement </mat-card-title>
+      <mat-card-subtitle> {{evenement.titre}}</mat-card-subtitle>
+    </mat-card-header>
+    
+    <mat-card-content>
+      
+       <table>
+         <td>
+           <tr>Titre</tr>
+           <tr>Date</tr>
+           <tr>Lieu</tr>
+         </td>
+         <td>
+           <tr>{{evenement.titre}}</tr>
+           <tr>{{evenement.date}}</tr>
+           <tr>{{evenement.lieu}}</tr>
+         </td>
+  
+       </table>
+      
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+  
+  
+  

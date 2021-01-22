@@ -1,0 +1,37 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      
+  
+      <mat-card-title>Publication </mat-card-title>
+      <mat-card-subtitle> {{publication.titre}}</mat-card-subtitle>
+    </mat-card-header>
+    
+    <mat-card-content>
+      
+       <table>
+         <td>
+           <tr>Type</tr>
+           <tr>Titre</tr>
+           <tr>Lien</tr>
+           <tr>Date</tr>
+           <tr>Source PDF </tr>
+         </td>
+         <td>
+           <tr>{{publication.type}}</tr>
+           <tr>{{publication.titre}}</tr>
+           <tr>{{publication.lien}}</tr>
+           <tr>{{publication.date}}</tr>
+           <tr>{{publication.sourcepdf}}</tr>
+         </td>
+  
+       </table>
+      
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+  
+  
+  
